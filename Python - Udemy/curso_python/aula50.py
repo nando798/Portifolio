@@ -1,10 +1,22 @@
 """
-introducao ao desempacotamento e tuples (tupla)
+Exercício
+Exiba os índices da lista
+0 Maria
+1 Helena
+2 Luiz
 """
+lista = ['Maria', 'Helena', 'Luiz']
+lista.append('João')
 
-_, _, nome3, *resto_nomes = ["joao", "fernando", "dalva", "neide"]
 
-print(nome3, resto_nomes)
+indices = range(len(lista))
+
+for indice in indices:
+    print(indice, lista[indice], type(lista[indice]))
+
+
+
+
 
 
 
