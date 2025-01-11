@@ -24,19 +24,20 @@ contrário disso:
 
 O segundo dígito do CPF é 0
 """
+import re
 
 soma = 0
 peso = 10
-cpf_usuario = "2277769983"
+cpf_usuario = re.sub(r"[^0-9]", "",
+"335.627.788-05")
 nove_digitos = cpf_usuario[:9]
-print(nove_digitos)
 
 for digit in nove_digitos:
     soma += (int(digit) * peso)
     peso -= 1
 
-    resto = (soma * 10) % 11
-    resto = resto if resto <= 9 else 0
+resto = (soma * 10) % 11
+resto = resto if resto <= 9 else 0
 
 
 
@@ -44,13 +45,12 @@ soma2 = 0
 peso2 = 11
 dez_digitos = cpf_usuario[:10]
 
-
 for digit in dez_digitos:
     soma2 += int(digit) * peso2
     peso2 -= 1
 
-    resto2 = (soma2 * 10) % 11
-    resto2 = resto2 if resto2 <= 9 else 0
+resto2 = (soma2 * 10) % 11
+resto2 = resto2 if resto2 <= 9 else 0
 
 cpf_valido = f"{nove_digitos}{resto}{resto2}"
 print(cpf_valido)
