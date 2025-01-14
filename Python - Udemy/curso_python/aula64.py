@@ -1,16 +1,15 @@
-
 import random
 
-for _ in range(100):
+for _ in range(1):
     nove_digitos = ""
     for i in range(9):
-        nove_digitos += str(random.randint(0,9))
+        nove_digitos += str(random.randint(0, 9))
 
     soma = 0
     peso = 10
 
     for digit in nove_digitos:
-        soma += (int(digit) * peso)
+        soma += int(digit) * peso
         peso -= 1
 
     resto = (soma * 10) % 11
@@ -28,5 +27,4 @@ for _ in range(100):
     resto2 = resto2 if resto2 <= 9 else 0
 
     cpf_valido = f"{dez_digitos}{resto2}"
-    print(cpf_valido)
-
+    print(f"o cpf abaixo é valido. {cpf_valido}")
