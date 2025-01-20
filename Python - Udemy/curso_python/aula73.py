@@ -4,13 +4,13 @@ Funções de primeira classe
 """
 
 
-def saudacao(msg):
-    return msg
+def saudacao(msg, nome):
+    return f"{msg} | O palestrante será o {nome}"
 
 
-def executa(funcao):
-    return funcao()
+def executa(funcao, *args):
+    return funcao(*args)
 
 
-valor = executa(saudacao)
+valor = executa(saudacao, "Ola a todos, tenham uma ótima noite", "Fernando")
 print(valor)
