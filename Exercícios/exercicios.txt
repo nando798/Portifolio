@@ -1,0 +1,33 @@
+ 1. Verificar se um número é positivo, negativo ou zero
+Objetivo: Peça ao usuário para digitar um número e diga se ele é positivo, negativo ou zero.
+
+2. Contagem regressiva
+Objetivo: Peça um número ao usuário e faça uma contagem regressiva até 0.
+
+3. Média de três números
+Objetivo: Peça ao usuário três números e calcule a média deles.
+
+4. Verificar se um ano é bissexto
+Objetivo: O usuário digita um ano, e o programa verifica se ele é bissexto ou não.
+Dica: Um ano é bissexto se for divisível por 4, mas não por 100, exceto se for divisível por 400.
+
+5. Números primos
+Objetivo: Peça um número ao usuário e verifique se ele é primo.
+Dica: Um número primo é divisível apenas por 1 e por ele mesmo.
+
+6. Inverter uma palavra
+Objetivo: Peça ao usuário uma palavra e exiba ela ao contrário.
+Dica: Use slicing ([::-1]).
+
+7. Jogo de Pedra, Papel e Tesoura
+Objetivo: Crie um jogo onde o usuário escolhe pedra, papel ou tesoura, e o computador escolhe aleatoriamente uma dessas opções. Depois, o programa determina o vencedor.
+
+8. Soma dos números pares de uma lista
+Objetivo: O usuário digita vários números e o programa soma apenas os pares.
+
+9. Fatorial de um número
+Objetivo: O usuário digita um número, e o programa calcula o fatorial dele.
+Dica: O fatorial de n é n! = n × (n-1) × (n-2) × ... × 1.
+
+10. Gerador de senha aleatória
+Objetivo: O programa gera uma senha aleatória com letras, números e símbolos.
