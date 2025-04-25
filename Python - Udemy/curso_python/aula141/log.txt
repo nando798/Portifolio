@@ -1,0 +1,12 @@
+Error: Mensagem de arquivo de log: LogFileMixin
+Success: Aoba, bom saber que o file funcionou! LogFileMixin
+Error: qualquer coisaLogFileMixin
+Success: Que legalLogFileMixin
+Error: qualquer coisaLogFileMixin
+Success: Que legalLogFileMixin
+Success: iPhone 15 Pro está ligadoLogFileMixin
+Error: iPhone 15 Pro está desligadoLogFileMixin
+Error: qualquer coisa
+Success: Que legal
+Success: iPhone 15 Pro está ligado
+Error: iPhone 15 Pro está desligado
