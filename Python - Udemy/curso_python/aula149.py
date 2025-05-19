@@ -35,7 +35,7 @@ class MyOpen:
         self._arquivo.close()
 
 
-with MyOpen("aula149.txt", "w") as arquivo:
+with MyOpen("aula150.txt", "w") as arquivo:
     arquivo.write("arquivo 1\n")
     arquivo.write("arquivo 2\n")
     arquivo.write("arquivo 3\n")
