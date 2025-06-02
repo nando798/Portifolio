@@ -13,4 +13,4 @@ class CallMe:
 
 
 call1 = CallMe(11968423860)
-retorno = call1("Fernando Souza")
+call1("Fernando Souza")
