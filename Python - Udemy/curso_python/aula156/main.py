@@ -1,6 +1,6 @@
-import uma_linha
+import documentando_class
 
-print(dir(uma_linha))
+print(dir(documentando_class))
 
 
-print(uma_linha.__doc__)
+help(documentando_class)

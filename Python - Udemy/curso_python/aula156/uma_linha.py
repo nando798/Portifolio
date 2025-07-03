@@ -1,5 +1,5 @@
-"""
-Qualquer funcao ou classe em python é um objeto...
+""" Qualquer funcao ou classe em python é um objeto...
+
 """
 
 variavel = "valor economico"
