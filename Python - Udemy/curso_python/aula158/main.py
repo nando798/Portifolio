@@ -1,10 +1,11 @@
 from abc import ABC
+from dataclasses import dataclass
 
 
+@dataclass
 class Pessoa(ABC):
-    def __init__(self, nome: str, idade: int):
-        self.nome = nome
-        self.idade = idade
+    nome: str
+    idade: int
 
     @property
     def nome(self):
