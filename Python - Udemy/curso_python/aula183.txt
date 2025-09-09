@@ -1,0 +1,7 @@
+Prezado(a) $nome,
+Segue o orçamento do seu veículo solicitado em $data.
+O valor total é de $valor.
+
+Atenciosamente,
+$empresa,
+$telefone
