@@ -1,5 +1,5 @@
 Prezado(a) $nome,
-Segue o orçamento do seu veículo solicitado em $data.
+Segue o orçamento do bolo de casamento solicitado em $data.
 O valor total é de $valor.
 
 Atenciosamente,
