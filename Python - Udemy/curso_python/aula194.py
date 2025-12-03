@@ -1,6 +1,6 @@
 # Usando subprocess para executar e comandos externos
 # subprocess é um módulo do Python para executar
-# processos e comandos externos no seu programa.
+# processos  e comandos externos no seu programa.
 # O método mais simples para atingir o objetivo é usando subprocess.run().
 # Argumentos principais de subprocess.run():
 # - stdout, stdin e stderr -> Redirecionam saída, entrada e erros
@@ -20,3 +20,21 @@
 # Comando de exemplo:
 # Windows: ping 127.0.0.1
 # Linux/Mac: ping 127.0.0.1 -c 4
+
+import subprocess
+import sys
+
+
+encoding = "utf_8"
+system = sys.platform
+
+if sys.platform == "win32":
+    cmd = ["dir"]
+    encoding = "cp850"
+
+# cmd = ["ping", "127.0.0.1"]
+cmd = ["ls", "-lah"]
+process = subprocess.run(cmd, encoding=encoding, text=False, shell=True)
+
+
+print(process.stdout)
